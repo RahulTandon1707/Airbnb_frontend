@@ -1,0 +1,38 @@
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(45, 78, 0, 0.2);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/*div p:hover {*/
+/*    color: white;*/
+/*}*/
+
+.bg-pinkred {
+    background: linear-gradient(to right, #ffbf96, #fe7096) !important;
+}
+
+.bg-lightblue {
+    background: linear-gradient(to right, #90caf9, #047edf 99%) !important;
+}
+
+.bg-lightgreen {
+    background: linear-gradient(to right, #84d9d2, #07cdae) !important;
+}
+
+.h200 {
+    height: 250px;
+}
+
+.style-text {
+    text-shadow: 3px 4px 6px rgba(45, 45, 45, 0.15);
+    font-size: 2.9em;
+    letter-spacing: 1px;
+    font-family: "Berlin Sans FB";
+    background: linear-gradient(to right, #2C3E50, #000000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 3100;
+    text-transform: capitalize;
+    line-height: 55px;
+}
